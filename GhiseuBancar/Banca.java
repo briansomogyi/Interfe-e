@@ -25,4 +25,9 @@ public class Banca {
         }
         System.out.println("Nu am gasit clientul cerut: " + nume);
     }
+
+    public String getCodBanca() {
+        return codBanca;
+    }
+
 }

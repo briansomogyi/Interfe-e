@@ -2,7 +2,7 @@ package ProiectSoftware;
 
 import java.util.ArrayList;
 
-public class ProiectComercial extends Project implements Risky {
+public class ProiectComercial extends Project {
     private String deadLine;
     private long fonduriDeMarketing;
     private int numarDeEchipe;

@@ -4,7 +4,17 @@ public class MailTransmitter implements Transmitter {
 
     private static final String TYPE = " mail";
     private Message message;
+
+    public int getBuffer() {
+        return buffer;
+    }
+
     private int buffer;
+
+    public int getDimention() {
+        return dimention;
+    }
+
     private int dimention;
 
     private MailTransmitter() {

@@ -2,8 +2,12 @@ package ProiectSoftware;
 
 import java.util.ArrayList;
 
-public class ProiectOpenSource extends Project implements Risky {
+public class ProiectOpenSource extends Project {
     private String mailingList;
+
+    public String getMailingList() {
+        return mailingList;
+    }
 
     public ProiectOpenSource(String titlu, String obiectiv, long fonduri, String mailingList) {
         super(titlu, obiectiv, fonduri);

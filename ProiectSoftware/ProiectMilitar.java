@@ -2,7 +2,7 @@ package ProiectSoftware;
 
 import java.util.ArrayList;
 
-public class ProiectMilitar extends Project implements Risky {
+public class ProiectMilitar extends Project {
     String deadLine;
     String parola;
 
